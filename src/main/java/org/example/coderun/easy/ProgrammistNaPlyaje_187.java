@@ -1,4 +1,4 @@
-package org.example.coderun;
+package org.example.coderun.easy;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -34,3 +34,22 @@ public class ProgrammistNaPlyaje_187 {
         reader.close();
     }
 }
+
+// https://skr.sh/sJq0dGv0pEq
+//Пример 1
+//Ввод
+//1
+//5
+//1 2 4 8 16
+//Вывод
+//3
+//Пример 2
+//Ввод
+//2
+//2
+//2 4
+//4
+//2 4 6 8
+//Вывод
+//6
+//2

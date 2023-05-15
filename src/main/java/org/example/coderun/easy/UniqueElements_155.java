@@ -1,4 +1,4 @@
-package org.example.coderun;
+package org.example.coderun.easy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,3 +26,23 @@ public class UniqueElements_155 {
         System.out.println(count);
     }
 }
+
+// https://skr.sh/sJqquanKyTU
+// Пример 1
+//Ввод
+//5
+//1 2 3 4 5
+//Вывод
+//5
+//Пример 2
+//Ввод
+//5
+//1 2 3 4 4
+//Вывод
+//3
+//Пример 3
+//Ввод
+//10
+//9 3 10 5 7 6 4 1 2 8
+//Вывод
+//10

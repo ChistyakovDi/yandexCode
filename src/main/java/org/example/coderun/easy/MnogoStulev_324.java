@@ -1,4 +1,4 @@
-package org.example.coderun;
+package org.example.coderun.easy;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -39,3 +39,20 @@ public class MnogoStulev_324 {
         reader.close();
     }
 }
+
+// https://skr.sh/sJqTk6evMJ8
+
+// Пример 1
+//Ввод
+//2 3
+//1 1
+//3 3 3
+//Вывод
+//4
+//Пример 2
+//Ввод
+//6 5
+//5 10 8 4 7 2
+//3 1 11 18 9
+//Вывод
+//27
