@@ -21,6 +21,7 @@ public class Shashki_344 {
 
         int w = Integer.parseInt(reader.readLine());
         List<int[]> white = new ArrayList<>(w);
+
         for (int i = 0; i < w; i++) {
             String[] field = reader.readLine().split(" ");
             int[] a = new int[]{Integer.parseInt(field[0]), Integer.parseInt(field[1])};
@@ -29,6 +30,7 @@ public class Shashki_344 {
 
         int b = Integer.parseInt(reader.readLine());
         List<int[]> black = new ArrayList<>(w);
+
         for (int i = 0; i < b; i++) {
             String[] field = reader.readLine().split(" ");
             int[] a = new int[]{Integer.parseInt(field[0]), Integer.parseInt(field[1])};
@@ -44,6 +46,7 @@ public class Shashki_344 {
             second = white;
         }
         String result = "No";
+
         for (int k = 0; k < first.size(); k++) {
             int[] field = first.get(k);
 
@@ -89,3 +92,31 @@ public class Shashki_344 {
     }
 }
 
+// https://skr.sh/sJs34uVvG2M
+
+// Пример 1
+//Ввод
+//8 8
+//3
+//1 1
+//2 6
+//6 6
+//3
+//2 2
+//7 7
+//8 8
+//white
+//Вывод
+//Yes
+//Пример 2
+//Ввод
+//8 8
+//2
+//2 2
+//3 3
+//2
+//7 7
+//8 8
+//black
+//Вывод
+//No
