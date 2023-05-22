@@ -129,3 +129,30 @@ public class MEW_HTTP_234 {
     }
 }
 
+//https://skr.sh/sJxhUerBTUy
+//https://skr.sh/sJxWR32Rqc7
+//Пример 1
+//Ввод
+//Window
+//Bird
+//Food
+//Human
+
+//Вывод
+//Entertainment
+//Prey
+//Heaven
+//Pillow
+
+//Пример 2
+//Ввод
+//Morning
+//Afternoon
+//Evening
+//Night
+
+//Вывод
+//Sleep
+//Sleep
+//Sleep
+//Play

@@ -192,3 +192,18 @@ class Point implements Comparable<Point> {
         return value.compareTo(o.value);
     }
 }
+
+
+//https://skr.sh/sJxOtt5vc1r
+//Пример 1
+//Ввод
+//7 27 2
+//9 1 1 27 3 27 3
+//Вывод
+//4 2
+//Пример 2
+//Ввод
+//7 60 4
+//30 1 1 3 10 6 4
+//Вывод
+//5 6 3 2

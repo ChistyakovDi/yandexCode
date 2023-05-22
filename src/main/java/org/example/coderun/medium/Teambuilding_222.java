@@ -13,7 +13,7 @@ public class Teambuilding_222 {
         int n = Integer.parseInt(parts[0]); // nodes
         int m = Integer.parseInt(parts[1]); // edges
 
-        if (n * (n-1) / 2 == m) {
+        if (n * (n - 1) / 2 == m) {
             System.out.println(1);
             System.out.println(1);
             StringBuilder sb = new StringBuilder();
@@ -40,13 +40,10 @@ public class Teambuilding_222 {
             graph.get(node1).add(node2);
             graph.get(node2).add(node1);
         }
-        //LocalDateTime from = LocalDateTime.now();
         if ((m == 0 && n != 2) || !solve(graph, allNodes)) {
             System.out.println(-1);
         }
         reader.close();
-        //LocalDateTime to = LocalDateTime.now();
-        // System.out.println(Duration.between(from, to).toMillis());
     }
 
     private static boolean solve(Map<Integer, Set<Integer>> graph, Set<Integer> allNodes) {
@@ -72,7 +69,6 @@ public class Teambuilding_222 {
                     while (iterator.hasNext()) {
                         Integer next = iterator.next();
                         if (allNodes.contains(next)) {
-                            // есть доступ к уже добавленным вершинам
                             if (!contains(graph.get(next), tempTeam)) {
                                 continue;
                             }
@@ -109,7 +105,7 @@ public class Teambuilding_222 {
         return true;
     }
 
-    private static boolean contains(Set<Integer> where, Set<Integer> what){
+    private static boolean contains(Set<Integer> where, Set<Integer> what) {
         Iterator<Integer> iterator = what.iterator();
         while (iterator.hasNext()) {
             if (!where.contains(iterator.next())) return false;
@@ -117,3 +113,18 @@ public class Teambuilding_222 {
         return true;
     }
 }
+
+//https://skr.sh/sJxtGOb6gX4
+//Пример 1
+//Ввод
+//3 1
+//1 2
+//Вывод
+//2
+//1 2
+//3
+//Пример 2
+//Ввод
+//3 0
+//Вывод
+//-1

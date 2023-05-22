@@ -5,9 +5,7 @@ import com.sun.net.httpserver.*;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
-import java.text.DecimalFormat;
 import java.util.*;
-import java.util.concurrent.Executor;
 
 public class Server {
 
